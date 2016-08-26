@@ -5,8 +5,8 @@
   window.makeError = function(a) {
     return a.b();
   };
-  // window.onerror = function(msg, url, line, col, err) {
-  //   console.log(msg + url + line + col);
-  //   console.log(err);
-  // };
+  window.onerror = function(msg, url, line, col, err) {
+    console.log(msg + url + line + col);
+    console.log(err);
+  };
 }());
