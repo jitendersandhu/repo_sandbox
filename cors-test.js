@@ -1,5 +1,4 @@
-// Code goes here
-'usestrict';
+'use strict';
 /* jshint ignore:start */
 var corsTest = (function() {
 
