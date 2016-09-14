@@ -6,4 +6,4 @@
 // 			(secure ? "; secure" : "")
 
 // document.cookie('TestCookieThirdParty');
-console.log(/TestCookieThirdParty=yes/.test(document.cookie));
+console.log(/TestCookieThirdParty/.test(document.cookie));
